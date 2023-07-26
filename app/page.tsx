@@ -1,9 +1,10 @@
-import Image from "next/image";
+import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24">
+    <main className="grid h-screen place-content-center">
       Hello World!
+      <Link href="/products">See products</Link>
     </main>
   );
 }
