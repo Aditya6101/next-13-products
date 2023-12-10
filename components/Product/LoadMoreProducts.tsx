@@ -5,7 +5,6 @@ import { fetchProducts } from "@/server/actions/products";
 import type { ProductsType } from "@/types/Product";
 import { useEffect, useRef, useState } from "react";
 import Loader from "../Loader";
-import ProductList from "./ProductList";
 import ProductItem from "./ProductItem";
 
 export default function LoadModeProducts() {
